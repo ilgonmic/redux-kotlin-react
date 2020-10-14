@@ -21,6 +21,7 @@ fun todos(
     state: Array<Todo> = emptyArray(),
     action: Any
 ): Array<Todo> = when (action) {
+
     is AddTodo -> {
         console.log("ADD TODO")
         state + Todo(action.id, action.text, false)
