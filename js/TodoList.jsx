@@ -47,7 +47,7 @@ export const VisibleTodoList = ({store}) => {
     })
     const toggleTodo = (id) => store.dispatch(new ToggleTodo(id))
     return (<TodoList
-        todos={getVisibleTodos(todos, filterState ?? SHOW_ALL)}
+        todos={getVisibleTodos(todos, filterState)}
         toggleTodo={toggleTodo}
     />)
 }
