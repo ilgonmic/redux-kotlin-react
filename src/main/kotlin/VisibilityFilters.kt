@@ -1,4 +1,3 @@
-@JsExport
 object VisibilityFilters {
     const val SHOW_ALL = "SHOW_ALL"
     const val SHOW_ACTIVE = "SHOW_ACTIVE"
