@@ -8,12 +8,6 @@ repositories {
     mavenLocal()
     mavenCentral()
     jcenter()
-    maven {
-        url = uri("https://dl.bintray.com/kotlin/kotlinx")
-    }
-    maven {
-        url = uri("https://dl.bintray.com/kotlin/kotlin-js-wrappers")
-    }
 }
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.2")

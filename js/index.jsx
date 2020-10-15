@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {App} from "./components"
+import {App} from "./App"
+import {store} from "./components"
 
 ReactDOM.render(
-    <App/>,
+    <App store={store}/>,
     document.getElementById('app')
 );

@@ -1,0 +1,8 @@
+@JsExport
+val SHOW_ALL = "SHOW_ALL"
+
+@JsExport
+val SHOW_ACTIVE = "SHOW_ACTIVE"
+
+@JsExport
+val SHOW_COMPLETED = "SHOW_COMPLETED"
